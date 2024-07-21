@@ -1,0 +1,148 @@
+/* styles.css */
+    
+*{ 
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+justify-content: center;
+align-items: center;
+
+}
+
+
+body{
+    
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-image: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+        background-image: -moz-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+        background-image: -o-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+        background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+        background-repeat: no-repeat;
+        background-size: contain;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+width: 100%;
+}
+      
+
+
+header{
+    font-family: "General-Font-Family";
+    text-transform: uppercase;
+    text-align: center;
+    /* opacity:0.5; */
+    color: rgb(255, 255, 255);
+    margin: 100px auto;
+}
+
+footer{justify-content: center;
+        align-items: center;
+    font-family: "General-Font-Family"; 
+    display: inline-grid;
+    
+}
+
+
+.stopwatch-container {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 20px 20px 45px rgb(246, 78, 78);
+    background: url('assets/img/moments-textured-lines-for-the-table.png') ;
+}
+
+.display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1ce323;
+    color: ghostwhite;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #da1a1a;
+    color: rgb(0, 0, 0);
+    cursor: not-allowed;
+    
+    
+ 
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.laps li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.laps li:last-child {
+    border-bottom: none;
+}
+li{list-style: none;
+    padding: 10px;
+}
+
+#lft{
+    display: block;
+    float: left;
+}
+/* #rgt{
+    display: block;
+    float: right;
+} */
+
+#logo{
+    height: 10rex;
+    width: 10rex;
+    border: none;
+    border-radius: 50%;
+    padding-top: 10%;
+    display: block;
+
+}
+ /* section{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    display:block;
+    float: center;
+    columns: 3rem 2;
+ } */
+ #foot{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 0 5rem;
+    display:block;
+    float: center;
+    columns: 3rem 5;
+ }
